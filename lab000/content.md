@@ -25,6 +25,7 @@ Method 2
 
 ````
 $ <copy>cd /home/oracle/HOL/lab09_masking</copy>
+$ <copy>mask20_clone.sh</copy>
 
 SQL*Plus: Release 19.0.0.0.0 - Production on Tue Sep 3 13:24:23 2019
 Version 19.3.0.0.0
@@ -37,7 +38,7 @@ SQL> alter pluggable database masked open read write;
 Pluggable database altered.
 
 ````
-
+mask20_clone.sh
 
 ### Substep 1.1 ###
 

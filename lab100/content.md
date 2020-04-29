@@ -11,7 +11,7 @@ List of requirements
 
 ## Step 1 ##
 
-Let’s collect audit data created inside the database (view UNIFIED\_AUDIT\_TRAIL) and in operating system files (as per parameter audit_file_dest = /u01/oracle/admin/CONT/adump).
+Let’s collect audit data created inside the database (view UNIFIED\_AUDIT\_TRAIL) and in operating system files (as per parameter audit\_file\_dest = /u01/oracle/admin/CONT/adump).
 
 
 ````

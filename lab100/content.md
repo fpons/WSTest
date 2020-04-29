@@ -15,11 +15,13 @@ Let’s collect audit data created inside the database (view UNIFIED\_AUDIT\_TRA
 
 Go to **Secured Targets** > **Audit Trails** > **Add** and create the following three audit trails.
 
+
 *	audit trail type: **TABLE**
 *	collection host: **secdb.localdomain**
 *	secured target: **cont**
 *	trail location: **UNIFIED\_AUDIT\_TRAIL**
 *	collection plugin: **com.oracle.av.plugin.oracle**
+
 
 *	audit trail type: **TABLE**
 *	collection host: **secdb.localdomain**
@@ -27,11 +29,13 @@ Go to **Secured Targets** > **Audit Trails** > **Add** and create the following 
 *	trail location: **UNIFIED\_AUDIT\_TRAIL**
 *	collection plugin: **com.oracle.av.plugin.oracle**
 
+
 *	audit trail type: **DIRECTORY**
 *	collection host: **secdb.localdomain**
 *	secured target: **cont**
 *	trail location: **/u01/oracle/db/admin/CONT/adump**
 *	collection plugin: **com.oracle.av.plugin.oracle**
+
 
 The collection should start automatically after a few seconds.
 

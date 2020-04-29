@@ -15,7 +15,7 @@ Let’s collect audit data created inside the database (view UNIFIED\_AUDIT\_TRA
 
 Go to **Secured Targets** > **Audit Trails** > **Add** and create the following three audit trails.
 
-1. Audit data stored in the Container database:
+*Audit data stored in the Container database:*
 
 *	audit trail type: **TABLE**
 *	collection host: **secdb.localdomain**
@@ -23,7 +23,7 @@ Go to **Secured Targets** > **Audit Trails** > **Add** and create the following 
 *	trail location: **UNIFIED\_AUDIT\_TRAIL**
 *	collection plugin: **com.oracle.av.plugin.oracle**
 
-2. Audit data stored in the Pluggable database:
+*Audit data stored in the Pluggable database:*
 
 *	audit trail type: **TABLE**
 *	collection host: **secdb.localdomain**
@@ -31,7 +31,7 @@ Go to **Secured Targets** > **Audit Trails** > **Add** and create the following 
 *	trail location: **UNIFIED\_AUDIT\_TRAIL**
 *	collection plugin: **com.oracle.av.plugin.oracle**
 
-3. Audit data stored outside the database:
+*Audit data stored outside the database:*
 
 *	audit trail type: **DIRECTORY**
 *	collection host: **secdb.localdomain**

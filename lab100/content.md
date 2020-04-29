@@ -49,6 +49,22 @@ Some more text
 Some more
 ````
 
+We will start by loading DBSAT Discoverer’s report into Audit Vault.
+
+From the desktop connection to secdb:
+
+*	Login to Audit Vault as **AVADMIN/Reganam_1**
+*	Go to **Secure Targets**
+*	Click on **pdb1** to show the **Modify Secure Target** page
+*	Scroll  down to **Sensitive Objects**
+
+![Alt text](./images/img37.png " ")
+
+* Browse to /home/oracle/HOL/lab01\_dbsat/dbsat/install/pdb1sensitivedata_discover.csv
+*	Upload the csv file
+*	click on **Save**
+
+We can now add **PDB1** to the **Data Privacy compliance** report 
 
 
 ## Acknowledgements ##
